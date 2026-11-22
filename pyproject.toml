@@ -1,0 +1,23 @@
+[project]
+name = "llm-bootcamp-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Стас Басов", email = "stas.basov@whatever.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.1.1",
+    "minsearch>=0.0.8",
+    "openai>=2.48.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+llm-bootcamp-2026 = "llm_bootcamp_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
